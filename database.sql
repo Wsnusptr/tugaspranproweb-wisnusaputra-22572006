@@ -8,7 +8,8 @@ CREATE TABLE movie (
     sutradara VARCHAR(255),
     sinopsis TEXT,
     rating DECIMAL(3,1),
-    bahasa VARCHAR(100)
+    bahasa VARCHAR(100),
+    cover VARCHAR(600)
 );
 
 CREATE INDEX idx_judul ON movie(judul);
